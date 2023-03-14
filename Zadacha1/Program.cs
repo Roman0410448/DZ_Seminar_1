@@ -1,6 +1,5 @@
 ﻿Console.Write("Введите первое число: ");
-int firstValue = Convert.ToInt32(Console.ReadLine()); // Перевели строчку в формат целого числа
-
+int firstValue = Convert.ToInt32(Console.ReadLine()); 
 Console.Write("Введите второе число: ");
 int secondValue = Convert.ToInt32(Console.ReadLine());
 if (firstValue > secondValue)
